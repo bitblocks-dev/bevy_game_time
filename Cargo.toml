@@ -3,5 +3,9 @@ name = "bevy_game_time"
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+name = "bevy_game_time"
+path = "src/lib.rs"
+
 [dependencies]
 bevy = "0.18.1"
