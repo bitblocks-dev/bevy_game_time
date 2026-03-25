@@ -14,6 +14,7 @@ pub mod prelude {
 pub struct GameTimePlugin;
 
 impl Plugin for GameTimePlugin {
+    #[allow(unused)]
     fn build(&self, app: &mut App) {}
 }
 
